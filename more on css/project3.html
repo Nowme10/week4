@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAV bar border</title>
+    <style>
+       .navbar{
+        background-color: aqua;
+       }
+       .navbar ul{
+        overflow: auto;
+       }
+       .navbar li{
+        float: left;
+        list-style: none;
+        margin: 13px 20px;
+        
+       }
+       .navbar li a{
+        padding: 4px 4px;
+        text-decoration: none;
+       }
+       li a[href*="Home"]{
+        border-style: dashed;
+       }
+       li a[href*="About Us"]{
+        border-style: dotted;
+       }
+       li a[href*="Contact"]{
+        border-style:double;
+       }
+       li a[href*="Blog"]{
+        border-style:groove
+       }
+       li a[href*="Login"]{
+       border-style: dashed dotted groove double;
+       }
+
+       
+    </style>
+</head>
+<body>
+    
+</head>
+<body>
+    <nav class="navbar">
+       <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About Us">About Us</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#Blog">Blog</a></li>
+        <li><a href="#Login">Login</a></li>
+       </ul> 
+    </nav>
+</body>
+</html>

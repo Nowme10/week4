@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.heading{
+    color: beige;
+    text-align: center;
+}
+.heading:hover{
+    background-color: rgb(91, 157, 157);
+}
+#paragraph{
+    color: rgb(235, 223, 223);
+    font-size: 2rem;
+}
+#paragraph:hover{
+    background-color: cornflowerblue;
+}

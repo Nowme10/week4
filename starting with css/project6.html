@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Input </title>
+    <style>
+        form{
+            
+            margin: 20px 20px;
+            padding: 20px 20px;
+            text-align: center;
+            font-size: larger;
+            display: contents;
+            
+        }
+        input:focus{
+            background-color: yellow;
+        }
+        .btn{
+            background-color: rgb(227, 10, 10);
+            color: aliceblue;
+            border: solid;
+            border-color: rgba(0, 0, 0, 0.495);
+            border-radius: 15%;
+            padding: 4px 6px;
+            font-weight: bold;
+            
+            
+        }
+        .btn:hover{
+            
+            background-color: rgb(87, 247, 0);
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form>
+      <label for="userId">UserID</label>
+      <input type="text" placeholder="Enter your UserId">
+      <label for="password">password</label>
+      <input type="password" placeholder="Enter your password">
+      <button class="btn">Submit</button>
+    </form>
+</body>
+</html>
